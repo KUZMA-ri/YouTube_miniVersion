@@ -1,6 +1,6 @@
 import React from "react";
 const PreviewItem = (props) => {
-    const {onClick, id } = props;
+    const { onClick, id } = props;
 
     return(
         <img 
