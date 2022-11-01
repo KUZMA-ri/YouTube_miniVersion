@@ -1,0 +1,28 @@
+.findVideo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 30px;
+}
+
+.searchField {
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.searchBtn {
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}

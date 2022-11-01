@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+form {
+    margin-right: 25px;
+}
+
+.formForComments {
+    display: flex;
+    align-items: flex-start;
+}
+
+.form_group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form_control {
+    margin-left: 10px;
+    padding: 5px;
+    border: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn_addComment {
+    background-color: rgb(16, 16, 15);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 16px;
+    transition: all 0.5s;
+    box-shadow: 7px 9px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.btn_addComment:hover {
+    scale: 1.2;
+}

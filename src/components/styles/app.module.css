@@ -1,0 +1,21 @@
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* height: 100vh; */
+}
+
+.btnClear {
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+
